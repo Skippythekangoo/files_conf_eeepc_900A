@@ -1,0 +1,33 @@
+
+xmonad.hs:255:8:
+    No instances for (Read (l0 Window), LayoutClass l0 Window)
+      arising from a use of `xmonad'
+    Possible fix:
+      add instance declarations for
+      (Read (l0 Window), LayoutClass l0 Window)
+    In the expression: xmonad defaults
+    In an equation for `main': main = xmonad defaults
+
+xmonad.hs:279:30:
+    Couldn't match expected type `ManageHook'
+                with actual type `[Query (Endo WindowSet)]'
+    In the `manageHook' field of a record
+    In the expression:
+      defaultConfig
+        {terminal = myTerminal, focusFollowsMouse = myFocusFollowsMouse,
+         borderWidth = myBorderWidth, modMask = myModMask,
+         workspaces = myWorkspaces, normalBorderColor = myNormalBorderColor,
+         focusedBorderColor = myFocusedBorderColor, keys = myKeys,
+         mouseBindings = myMouseBindings, layoutHook = myLayout,
+         manageHook = myManageHook, handleEventHook = myEventHook,
+         logHook = myLogHook, startupHook = myStartupHook}
+    In an equation for `defaults':
+        defaults
+          = defaultConfig
+              {terminal = myTerminal, focusFollowsMouse = myFocusFollowsMouse,
+               borderWidth = myBorderWidth, modMask = myModMask,
+               workspaces = myWorkspaces, normalBorderColor = myNormalBorderColor,
+               focusedBorderColor = myFocusedBorderColor, keys = myKeys,
+               mouseBindings = myMouseBindings, layoutHook = myLayout,
+               manageHook = myManageHook, handleEventHook = myEventHook,
+               logHook = myLogHook, startupHook = myStartupHook}
