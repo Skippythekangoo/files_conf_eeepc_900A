@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+conky -c ~/.conky/conkyrc &
+conky -c ~/.conky/conkyrc1 &
