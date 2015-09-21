@@ -1,0 +1,14 @@
+Style tint2 !Borders,!Title
+DestopSize 1x1
+DesktopSize 1x1
+exec midori
+Style tint2 !Borders,!Title
+DesktopSize 1x1
+DestroyModuleConfig DockDroit: *
+*DockDroit: 96x48
+*DockDroit: Rows 1
+*DockDroit: Columns 2
+*DockDroit: Geometry 96x48
+*DockDroit: Geometry +0+0
+exec pcmanfm
+exec deluge

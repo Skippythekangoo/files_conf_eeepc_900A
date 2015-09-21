@@ -1,0 +1,12 @@
+# Configuration pour un mode "routeur" et "monitiring"
+
+Style tint2 !Borders,!Title
+
+DesktopSize 1x1
+
+DestroyModuleConfig DockDroit: *
+*DockDroit: Geometry 96x48
+*DockDroit: Rows 1
+*DockDroit: Columns 2
+*MyButtons: (1x1, Frame 0, Title(Center) "1")
+*MyButtons: (1x1, Frame 0, Title(Center) "2")
