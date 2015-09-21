@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/skippy/.fvwm_stk_120720/bindings'
+let g:netrw_dirhist_2='/home/skippy/.config/lxsession'
+let g:netrw_dirhist_3='/home/skippy/.config/lxsession/LXDE/fvwm/bindings'
+let g:netrw_dirhist_4='/home/skippy/.config/vlc'
+let g:netrw_dirhist_5='/home/skippy/.config/pcmanfm/LXDE'
